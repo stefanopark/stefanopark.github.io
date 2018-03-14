@@ -2,6 +2,8 @@ body {
     background: #066cff;
 }
 h1 { font-size: 40px;
+	color: #fff;
 }
 h2 { text-align: center;
+	 margin: 40px 0 0 0;
 }
