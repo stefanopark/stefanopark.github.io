@@ -1,0 +1,101 @@
+body {
+    background-color: #F3F3F3;
+    font-family: 'Lora', serif;
+    color: #272E45;
+}
+
+h1 {
+    color: #fff;
+    font-size: 27px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+header {
+    background: linear-gradient(to right, #27314B, #225682);
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+nav ul {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.first {
+    text-align: center;
+    padding: 10px;
+    margin: 20px 10px 60px 10px;
+}
+
+.first h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.text {
+    text-align: left;
+    padding: 20px;
+}
+
+.second {
+    text-align: center;
+    background-color: #0E73EC;
+    padding: 10px;
+    margin: 60px 10px;
+    color: #fff;
+}
+
+.second h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.second img {
+    width: 350px;
+}
+
+.third {
+    text-align: center;
+    padding: 10px;
+    margin: 60px 10px;
+}
+
+.third h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.third img {
+    width: 350px;
+}
+
+footer {
+    background-color: #D4DBDF;
+}
+
+footer ul {
+    text-align: center;
+    color: #272E45;
+    font-size: 12px;
+    padding: 20px;
+}
+
+footer ul li {
+    display: inline;
+    letter-spacing: 1px;
+    padding: 15px;
+}
