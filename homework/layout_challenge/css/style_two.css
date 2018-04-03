@@ -1,0 +1,38 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    padding: 0 0 0 100px;
+    margin: 70px 0 0 0;
+}
+
+#two-column {
+    padding: 50px 100px 100px 100px;
+}
+
+.container {
+    display: inline-block;
+    margin: 10px;
+    background: lightgray;
+    border: 1px solid gray;
+}
+
+.box-one,
+.box-four {
+    height: 200px;
+    width: calc(100% - 20px);
+}
+
+.box-two {
+    height: 500px;
+    width: calc(75% - 20px);
+}
+
+.box-three {
+    height: 500px;
+    width: calc(25% - 28px);
+}
