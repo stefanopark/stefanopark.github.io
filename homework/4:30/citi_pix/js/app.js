@@ -3,6 +3,6 @@
 // I expect the background image to change into the image of my selection
 
 $("#city-type").change(function() {
-    var className = $("#city-type").val();
-    $("body").removeClass().addClass(className);
+    var city = $("#city-type").val();
+    $("body").removeClass().addClass(city);
 });

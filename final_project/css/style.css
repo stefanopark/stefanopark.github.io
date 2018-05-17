@@ -1,0 +1,185 @@
+body {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    color: #006cff;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+    margin-top: 100px;
+}
+
+p {
+    max-width: 80%;
+}
+
+.image {
+    margin: 20px;
+}
+
+section {
+    border-bottom: 1px #D3D3D3;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#logo {
+    display: inline-block;
+    float: left;
+    margin-left: 100px;
+    margin-top: 21px;
+    width: 3%;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+    margin-right: 200px;
+    display: inline-block;
+    float: right;
+}
+
+li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #999;
+    text-decoration: none;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+}
+
+a {
+    position: relative;
+    display: block;
+    padding: 10px 0;
+    margin: 0 12px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
+    color: #000;
+}
+
+a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s, transform 0.2s ease-out;
+}
+
+a:active::before {
+    background-color: #000;
+}
+
+a:hover::before,
+a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.column {
+    width: 48%;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.staggered {
+    margin-top: 30vh;
+}
+
+.right {
+    float: right;
+}
+
+#navbar {
+    background-color: white;
+}
+
+.drawings .image {
+    display: inline-block;
+}
+
+.cdpackaging {
+    margin-top: 300px;
+}
+
+.cdpackaging p {
+    max-width: 40%;
+}
+
+.cdpackaging .image {
+    display: inline-block;
+}
+
+.stefano {
+    margin-top: 200px;
+}
+
+#about {
+    margin-top: 50px;
+    border-top: 1px solid #ccc;
+}
+
+#contact {
+    margin: 200px 0;
+    border-top: 1px solid #ccc;
+}
+
+.links a {
+    display: initial;
+    font-weight: 300;
+    font-size: 36px;
+    color: #006cff;
+    text-transform: capitalize;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    border-top: 1px #D3D3D3;
+    letter-spacing: 1px;
+    background-color: white;
+    margin: 20px;
+    color: #d6d6d6;
+    text-align: center;
+}

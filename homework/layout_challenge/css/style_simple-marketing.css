@@ -1,59 +1,17 @@
-body,
-html {
-    height: 100%;
-    margin: 0;
+.top,
+.bottom {
+    display: flex;
 }
 
-h1 {
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    padding: 0 0 0 100px;
-    margin: 70px 0 0 0;
+.top .left,
+.top .right {
+    width: 100%;
+    height: 400px;
 }
 
-#simple-marketing-column {
-    padding: 50px 100px 100px 100px;
-}
-
-.container {
-    display: inline-block;
-    margin: 10px;
-    background: lightgray;
-    border: 1px solid gray;
-}
-
-.box-one,
-.box-seven {
+.bottom .left,
+.bottom .center,
+.bottom .right {
     height: 200px;
-    width: calc(100% - 20px);
-}
-
-.box-two {
-    float: left;
-    height: 500px;
-    width: calc(50% - 25px);
-}
-
-.box-three {
-    float: right;
-    height: 500px;
-    width: calc(50% - 25px);
-}
-
-.box-four,
-.box-five,
-.box-six {
-    height: 225px;
-    width: calc(33% - 28px);
-}
-
-.box-four {
-    float: left;
-}
-
-.box-five {
-    margin: 10px 10px 10px 23px
-}
-
-.box-six {
-    float: right;
+    width: 100%;
 }

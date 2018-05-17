@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right,
+.second,
+.third {
+    display: flex;
+}
+
+header .left {
+    width: 200px;
+}
+
+.right {
+    align-items: center;
+}
+
+.tiny {
+    height: 50px;
+    width: 100px;
+}
+
+.second .gray-box {
+    height: 300px;
+    width: 100%;
+}
+
+.third .left,
+.third .center,
+.third .right {
+    height: 200px;
+    width: 100%;
+}

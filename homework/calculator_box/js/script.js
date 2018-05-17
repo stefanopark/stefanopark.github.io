@@ -25,3 +25,12 @@ function reset() {
     out.style.backgroundColor = "white";
     out.innerHTML = 0;
 }
+
+
+// var plusTen = document.querySelector("#a10");
+// plusTen.onclick = addTen;
+// function addTen() {
+//     var total=document.querySelector("#out").innerHTML;
+//     var newTotal= parseInt ("total") + 10;
+//     document.querySelector("#out").innerHTML=newTotal;
+// }
